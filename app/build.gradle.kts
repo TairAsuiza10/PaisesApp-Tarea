@@ -55,4 +55,22 @@ dependencies {
     androidTestImplementation(libs.androidx.compose.ui.test.junit4)
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
+
+    // Retrofit para consumir la API
+    /*implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+// Glide para mostrar las banderas (si usas XML)
+    implementation("com.github.bumptech.glide:glide:4.15.1")
+
+    // Retrofit para descargar los datos de la API
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Coil para cargar las imágenes de las banderas de forma muy sencilla
+    implementation("io.coil-kt:coil:2.4.0")*/
+
+    // ASEGÚRATE DE QUE ESTO ESTÉ AQUÍ ADENTRO
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
